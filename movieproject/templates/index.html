@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container">
+    <div class="row">
+        {% for i in movie_list %}
+        <div class="cd-md-3">
+            <div class="card">
+  <h5 class="card-header">Featured</h5>
+  <div class="card-body">
+    <h5 class="card-title">MOVIE</h5>
+    <p class="card-text">its new movie</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
